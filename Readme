@@ -1,56 +1,55 @@
-```
-# Connectify
+### Connectify
 
-## Overview
+### Overview
 
-Connectify is a real-time chat application built for seamless communication between individuals and groups. It provides instant messaging, temporary status sharing, video calling, user management, and real-time notifications through a modern, secure, and scalable architecture.
+Connectify is a real-time chat application built for seamless communication between individuals and groups. It provides instant messaging, temporary status sharing, video calling, user management, and real-time notifications through a modern, secure, and scalable architecture. 
 
-## Core Features
+### Core Features
 
 ### Real-Time Communication
 
-- Instant text messaging between users.
-- Support for sharing images, videos, and files.
-- Read receipts for message status.
-- Persistent chat history.
+* Instant text messaging between users.
+* Support for sharing images, videos, and files.
+* Read receipts for message status.
+* Persistent chat history.
 
 ### Status Updates
 
-- Share updates using text, images, or videos.
-- Configure status visibility using privacy settings.
-- Automatically remove status updates after 24 hours.
+* Share updates using text, images, or videos.
+* Configure status visibility using privacy settings.
+* Automatically remove status updates after 24 hours.
 
 ### Video Calls
 
-- High-quality audio and video communication powered by WebRTC.
-- Supports both one-to-one and group calls.
-- Provides controls for:
-  - Muting and unmuting the microphone.
-  - Turning the camera on or off.
-  - Ending an active call.
+* High-quality audio and video communication powered by WebRTC.
+* Supports both one-to-one and group calls.
+* Provides controls for: 
+
+  * Muting and unmuting the microphone.
+  * Turning the camera on or off.
+  * Ending an active call.
 
 ### User Management
 
-- Secure user registration and authentication using JWT.
-- Customizable profiles with profile images and bios.
-- Contact synchronization.
-- Group creation and management.
+* Secure user registration and authentication using JWT.
+* Customizable profiles with profile images and bios.
+* Contact synchronization.
+* Group creation and management.
 
 ### Notifications
 
-- Push notifications for new messages.
-- Notifications for incoming calls.
-- Alerts for new status updates.
+* Push notifications for new messages.
+* Notifications for incoming calls.
+* Alerts for new status updates.
 
-## Performance and Scalability
+### Performance and Scalability
 
-Connectify is designed to support a large number of concurrent users while maintaining efficient real-time communication.
+Connectify is designed to support a large number of concurrent users while maintaining efficient real-time communication. 
 
-- WebSocket connections for live updates.
-- Efficient real-time message and event delivery.
-- Scalable architecture for handling increased user activity.
+* WebSocket connections for live updates.
+* Efficient real-time message and event delivery.
+* Scalable architecture for handling increased user activity.
 
-## Communication Support
+### Communication Support
 
 The application supports both individual and group-based communication, making it suitable for personal and professional use.
-```
