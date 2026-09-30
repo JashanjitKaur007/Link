@@ -1,26 +1,54 @@
-Connectify: Chat Application
-Overview
-Connectify is a real-time chat application designed to provide seamless communication with features like real-time messaging, ephemeral status updates, and video calling. Built with modern web technologies, it emphasizes security, scalability, and a user-friendly experience. The application caters to both individual and group communications, making it ideal for personal and professional use.
+# Connectify
 
-Features
-1. Real-Time Messaging
-Instantaneous text communication.
-Multimedia support for images, videos, and files.
-Read receipts and chat history storage.
-2. Ephemeral Status Updates
-Post text, image, or video updates.
-Status visibility settings for privacy.
-Updates expire after 24 hours.
-3. Video Calling
-High-quality audio and video calls using WebRTC.
-Support for both one-on-one and group calls.
-In-call features like mute, video toggle, and call end options.
-4. User Management
-Secure user registration and login with JWT.
-Customizable profiles with images and bios.
-Contact synchronization and group management.
-5. Notifications
-Push notifications for new messages, calls, or status updates.
-6. Scalability and Performance
-Supports a large number of concurrent users.
-Efficient real-time updates using WebSocket connections.
+## Overview
+
+Connectify is a real-time chat application built for seamless communication between individuals and groups. It provides instant messaging, temporary status sharing, video calling, user management, and real-time notifications through a modern, secure, and scalable architecture.
+
+## Core Features
+
+### Real-Time Communication
+
+- Instant text messaging between users.
+- Support for sharing images, videos, and files.
+- Read receipts for message status.
+- Persistent chat history.
+
+### Status Updates
+
+- Share updates using text, images, or videos.
+- Configure status visibility using privacy settings.
+- Automatically remove status updates after 24 hours.
+
+### Video Calls
+
+- High-quality audio and video communication powered by WebRTC.
+- Supports both one-to-one and group calls.
+- Provides controls for:
+  - Muting and unmuting the microphone.
+  - Turning the camera on or off.
+  - Ending an active call.
+
+### User Management
+
+- Secure user registration and authentication using JWT.
+- Customizable profiles with profile images and bios.
+- Contact synchronization.
+- Group creation and management.
+
+### Notifications
+
+- Push notifications for new messages.
+- Notifications for incoming calls.
+- Alerts for new status updates.
+
+## Performance and Scalability
+
+Connectify is designed to support a large number of concurrent users while maintaining efficient real-time communication.
+
+- WebSocket connections for live updates.
+- Efficient real-time message and event delivery.
+- Scalable architecture for handling increased user activity.
+
+## Communication Support
+
+The application supports both individual and group-based communication, making it suitable for personal and professional use.
