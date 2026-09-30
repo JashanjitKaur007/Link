@@ -1,0 +1,41 @@
+# Link: Real-Time Communication Platform
+
+A modern, full-stack messaging platform engineered for seamless text, media, and video communication. Built with scalable web technologies, **Link** delivers real-time performance for both individual and group interactions.
+
+---
+
+## Core Capabilities
+
+* **Instant Messaging:** Real-time text transmission, chat history persistence, read receipts, and multimedia sharing (images, videos, documents).
+* **Ephemeral Stories:** Share temporary text, image, or custom media updates that automatically expire after 24 hours with granular privacy controls.
+* **WebRTC Video Calls:** High-definition audio/video calls supporting one-on-one and group sessions with in-call controls (mute, video toggle).
+* **User Management:** Secure JWT authentication, custom profiles (avatars, bio), contact syncing, and group management.
+* **Real-Time Push Notifications:** Instant notifications for incoming messages, call requests, and status updates.
+
+---
+
+## Technical Stack
+
+* **Frontend:** React, Tailwind CSS / UI Libraries
+* **Backend:** Node.js, Express.js
+* **Real-Time Engine:** Socket.io / WebSockets, WebRTC
+* **Database & Storage:** MongoDB Atlas
+* **Authentication:** JSON Web Tokens (JWT)
+
+---
+
+## Quick Start Guide
+
+### Prerequisites
+* Node.js (v18+ recommended)
+* MongoDB Atlas Database URI
+
+### Installation
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/JashanjitKaur007/Link
+   cd link
+
+
+
