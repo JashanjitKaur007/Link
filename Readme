@@ -1,20 +1,35 @@
-# Connectify
+# Connectify: Chat Application
+
+---
 
 ## Overview
-Connectify is a real-time chat application built for seamless communication between individuals and groups. It provides instant messaging, temporary status sharing, video calling, user management, and real-time notifications through a modern, secure, and scalable architecture.
+Connectify is a real-time chat application designed to provide seamless communication with features like real-time messaging, ephemeral status updates, and video calling. Built with modern web technologies, it emphasizes security, scalability, and a user-friendly experience. The application caters to both individual and group communications, making it ideal for personal and professional use.
 
-## Core Features
+---
 
-### Real-Time Communication
-* Instant text messaging between users.
-* Support for sharing images, videos, and files.
-* Read receipts for message status.
-* Persistent chat history.
+## Features
 
-### Status Updates
-* Share updates using text, images, or videos.
-* Configure status visibility using privacy settings.
-* Automatically remove status updates after 24 hours.
+### 1. Real-Time Messaging
+* Instantaneous text communication.
+* Multimedia support for images, videos, and files.
+* Read receipts and chat history storage.
 
-### Video Calls
+### 2. Ephemeral Status Updates
+* Post text, image, or video updates.
+* Status visibility settings for privacy.
+* Updates expire after 24 hours.
+
+### 3. Video Calls
 * High-quality audio and video communication powered by WebRTC.
+* Supports both one-to-one and group calls.
+* Controls for muting mic, toggling camera, and ending active calls.
+
+### 4. User Management
+* Secure user registration and authentication using JWT.
+* Customizable profiles with profile images and bios.
+* Contact synchronization and group management.
+
+### 5. Notifications & Scalability
+* Push notifications for new messages, incoming calls, and status updates.
+* WebSocket connections for live updates.
+* Scalable architecture for handling increased user activity.
